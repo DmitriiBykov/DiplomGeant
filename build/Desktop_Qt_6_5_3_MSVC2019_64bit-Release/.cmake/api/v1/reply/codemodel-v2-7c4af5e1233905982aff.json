@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ca10acf61b3d8f782143.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled6",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled6-Release-2ebf712e2ed7ce6ed9b3.json",
+					"name" : "untitled6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled6_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled6_autogen-Release-47b0b03a5d0834d43690.json",
+					"name" : "untitled6_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "untitled6_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-untitled6_autogen_timestamp_deps-Release-8c79d0cedcd07f91b0a7.json",
+					"name" : "untitled6_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/olegb/OneDrive/Documents/untitled6/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release",
+		"source" : "C:/Users/olegb/OneDrive/Documents/untitled6"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
