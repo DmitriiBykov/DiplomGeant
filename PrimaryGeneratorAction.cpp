@@ -10,7 +10,7 @@ PrimaryGeneratorAction::PrimaryGeneratorAction()
     : G4VUserPrimaryGeneratorAction()
 {
     // Создаём Gun с 1 частицей "за раз" (но мы вручную будем вызывать GeneratePrimaryVertex 1000 раз на событие)
-    fParticleGun = new G4ParticleGun(1);
+    fParticleGun = new G4ParticleGun(1E6);
 
     // Устанавливаем тип частицы: гамма
     fParticleGun->SetParticleDefinition(G4Gamma::GammaDefinition());

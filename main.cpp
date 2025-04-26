@@ -46,15 +46,15 @@ int main(int argc, char** argv)
     UImanager->ApplyCommand("/vis/open OGL");
     UImanager->ApplyCommand("/vis/drawVolume");
 
-    // UImanager->ApplyCommand("/vis/scene/add/trajectories");
-    // UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate 100");
-    // UImanager->ApplyCommand("/vis/trajectory/store true");
+    UImanager->ApplyCommand("/vis/scene/add/trajectories");
+    UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate 100");
+    UImanager->ApplyCommand("/vis/trajectory/store true");
 
 
     // Запускаем интерфейс
-    // ui->SessionStart();
-    for(int i=0;i<6;i++){
-        runManager->BeamOn(13);}
+    ui->SessionStart();
+    // for(int i=0;i<6;i++){
+    //     runManager->BeamOn(13);}
 
 
 
